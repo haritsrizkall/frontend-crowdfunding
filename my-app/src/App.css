@@ -1,0 +1,31 @@
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+.Container, #root {
+  height: 100%;
+}
+.login-page {
+  height: 100%;
+}
+.login-page .background {
+  background-color: aqua;
+  height: 100%;
+}
+.login-page .login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.login-page .login-form  input{
+  width: 22rem;
+  border-radius: 5rem;
+}
+.login-page .login-form  button{
+  width: 22rem;
+  border-radius: 5rem;
+}
